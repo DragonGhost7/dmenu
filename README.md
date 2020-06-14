@@ -1,5 +1,6 @@
 # dmenu - dynamic menu
 ====================
+
 dmenu is an efficient dynamic menu for X.
 
 Some patches were applied, as always find attached in the `patches` directory.
