@@ -1,6 +1,6 @@
 # Maintainer: Me lmao
 pkgname="dmenu"
-pkgver=1
+pkgver=r579.945e60b
 pkgrel=1
 pkgdesc="dynamic menu for X"
 arch=('x86_64')
@@ -24,5 +24,10 @@ build() {
 package() {
 	cd "$pkgname"
 	install -Dm755 ./dmenu "$pkgdir/usr/local/bin/dmenu"
+	install -Dm755 ./dmenu_run "$pkgdir/usr/local/bin/dmenu_run"
+	install -Dm755 ./dmenu_path "$pkgdir/usr/local/bin/dmenu_path"
+	install -Dm755 ./stest "$pkgdir/usr/local/bin/stest"
+
 	install -Dm644 ./dmenu.1 "$pkgdir/usr/local/man/man1/dmenu.1"
+	install -Dm644 ./stest.1 "$pkgdir/usr/local/man/man1/stest.1"
 }
