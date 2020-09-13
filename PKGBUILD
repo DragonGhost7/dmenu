@@ -1,6 +1,7 @@
 # Maintainer: Me lmao
 pkgname="dmenu"
-pkgver=r580.d61d591
+pkgver=r582.aea2bb7
+groups=('modified')
 pkgrel=1
 pkgdesc="dynamic menu for X"
 arch=('x86_64')
