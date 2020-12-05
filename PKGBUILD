@@ -1,6 +1,6 @@
 # Maintainer: Me lmao
 pkgname="dmenu"
-pkgver=r582.aea2bb7
+pkgver=r583.ee74121
 groups=('modified')
 pkgrel=1
 pkgdesc="dynamic menu for X"
