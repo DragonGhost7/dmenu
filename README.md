@@ -22,6 +22,8 @@ Afterwards enter the following command to build and install dmenu
 
     make clean install
 
+Or, with PKGBUILD, on arch, with "makepkg -si"
+
 
 ## Running dmenu
 -------------
